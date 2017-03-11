@@ -1,0 +1,49 @@
+.clearfix{ clear: both; }
+.Footer{
+	height: 50%;
+	width: 100%;
+	background-color: black;
+}
+
+.footer, address, aside {
+  width: 100%;
+  height: 50%;
+  text-align: center !important;
+}
+ .separator{
+  text-align: center !important;
+  margin: 20px;
+  font-size: 40px;
+  font-weight: 200px;
+}
+.separator:after{
+  border-top: 3px solid #ffd700;
+  content: "";
+  display: table;
+  width: 25px;
+  margin: auto;
+}
+.wraph4{
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+a.wrapApps.mail{
+  font-size: 2rem;
+  font-weight: 200;
+  border-bottom: 1px dashed #111;
+  color: #ffd700;
+  text-decoration: none;
+  display: inline-flex;
+  padding-bottom: .2rem;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.twiiter{
+  margin: 20px;
+}
+.instagram{
+  color: rgb( 138, 58, 185 );
+}
